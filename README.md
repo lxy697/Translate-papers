@@ -19,7 +19,7 @@
 
 ### 依赖的项目
 
-- [MinerU]([opendatalab/MinerU: A high-quality tool for convert PDF to Markdown and JSON.一站式开源高质量数据提取工具，将PDF转换成Markdown和JSON格式。](https://github.com/opendatalab/MinerU)) 一个通过OCR将PDF转为Markdown的工具
+- [MinerU](https://github.com/opendatalab/MinerU) 一个通过OCR将PDF转为Markdown的工具
   
 - （可选）[obsidian-releases](https://github.com/obsidianmd/obsidian-releases) 一个笔记软件，用于阅读输出的文献。
   
