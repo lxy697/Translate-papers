@@ -3,7 +3,7 @@ import sqlite3
 
 from ai import AI_API
 
-ai_api = AI_API("<passkey>", "https://api.deepseek.com", "deepseek-chat", 8192)
+ai_api = AI_API("<APIkey>", "https://api.deepseek.com", "deepseek-chat", 8192)#在这里填写你的APIkey
 
 
 def translate(folder_path):
