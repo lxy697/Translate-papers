@@ -83,7 +83,7 @@ def translate(folder_path):
     rows = cursor.fetchall()   
     for row in rows: # 特殊字符不翻译
         id, txt = row
-        txt_ch = ai_api.chatonce(f"请用学术语言将以下英文内容准确翻译成中文：{txt}")
+        txt_ch = ai_api.chatonce(f"请用学术语言将以下英文内容准确翻译成中文，仅提供翻译结果，不要添加任何额外的解释：{txt}")
         if txt_ch != "API失效":
             cursor.execute("UPDATE txt_split SET txt_ch = ?, isdone = 1 WHERE id = ?", (txt_ch, id))
             conn.commit()
